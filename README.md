@@ -59,4 +59,7 @@ Console create
 ```php
 yii backup/console/create
 ```
-.
+cron
+```php
+php /public_html/yii backup/console/create >> /public_html/log/crond_error.log 2>&1
+```
