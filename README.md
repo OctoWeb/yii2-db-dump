@@ -1,6 +1,5 @@
-Yii2 Yandex Metrika module
+Yii2 Dump MySQL
 ==========================
-Module to rule your yandex metrika counters.
 
 Installation
 ------------
@@ -31,8 +30,8 @@ Once the extension is installed, simply activate module in config file:
 <?php
     ......
    'modules' => [
-        'yandex-metrika' => [
-            'class' => 'octoweb\YandexMetrika\Module'
+        'backup' => [
+            'class' => 'octoweb\DbDump\Module',
         ],
     ],
     ......
