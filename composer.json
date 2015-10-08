@@ -5,10 +5,12 @@
     "keywords": ["yii2","extension"," yandex metrika"],
     "license": "MIT",
 	"version":"1.0.0",
-    "authors":{
+    "authors":[
+    	{
             "name": "Octo Web",
             "email": "admin@octo-web.ru"
-        },
+        }
+    ],
     "autoload": {
         "psr-4": {
             "octoweb\\DbDump\\": ""
