@@ -39,8 +39,24 @@ Once the extension is installed, simply activate module in config file:
 ?>
 ```
 
-Run migration. Module will create own table for migration history tbl_ym_migrations
+Console
+==========================
+Once the extension is installed, simply activate module in config file:
+
 ```php
-yii migrate/up --migrationPath=@vendor/octoweb/yii2-yandex-metrika/migrations --migrationTable=tbl_ym_migrations
+<?php
+    ......
+   'modules' => [
+        'backup' => [
+            'class' => 'octoweb\DbDump\Module',
+        ],
+    ],
+    ......
+
+?>
+```
+Console create
+```php
+yii backup/console/create
 ```
 .
