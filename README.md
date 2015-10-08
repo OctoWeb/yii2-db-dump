@@ -40,7 +40,7 @@ Once the extension is installed, simply activate module in config file:
 ```
 
 Console
-==========================
+-------
 Once the extension is installed, simply activate module in config file:
 
 ```php
